@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>绘制心电图</title>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+     <!-- <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'"
+    /> -->
+    <!-- <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    /> -->
+    <meta htto-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'"> 
+    <link rel="stylesheet" id="app_css" href="./style/app.css" />
+    <script>var exports = {"__esModule": true};</script>
+    <script src="../dist/libs/paho.javascript-1.0.3/paho-mqtt.js"></script>
+    <script src="../dist/libs/WaveView.js"></script>
+  </head>
+  <body>
+    <div class="line-center">
+        <span>
+          <canvas id="ecg-view1" class="ecg-view" width="800" height="200"
+            >Canvas not supported</canvas
+          >
+        </span>
+        <span>
+          <canvas id="ecg-view2" class="ecg-view" width="800" height="200"
+            >Canvas not supported</canvas
+          >
+        </span>
+      </div>
+      <div class="line-center">
+        <span>
+          <canvas id="ecg-view3" class="ecg-view" width="800" height="200"
+            >Canvas not supported</canvas
+          >
+        </span>
+        <span>
+          <canvas id="ecg-view4" class="ecg-view" width="800" height="200"
+            >Canvas not supported</canvas
+          >
+        </span>
+      </div>
+      <div class="line-center">
+        <span>
+          <canvas id="ecg-view5" class="ecg-view" width="800" height="200"
+            >Canvas not supported</canvas
+          >
+        </span>
+        <span>
+          <canvas id="ecg-view6" class="ecg-view" width="800" height="200"
+            >Canvas not supported</canvas
+          >
+        </span>
+      </div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="../dist/app/renderer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+.line-center {
+    text-align: center;
+}
+
+.ecg-view {
+    /* position: fixed; relative; absolute; */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 3px;
+    background: #000000;
+    border: thin solid #aaaaaa;
+}
+
+.bg-grid {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    margin: 10px;
+    /* background: #FFFFFFFF; */
+    border: thin solid #aaaaaa;
+}
